@@ -1,0 +1,27 @@
+﻿
+<div ng-controller="WorkItemController" class="row">
+	<div class="col-md-4">
+		<div class="well">
+			<form class="form-horizontal">
+				<fieldset>
+					<legend>Work Item</legend>
+					<label for="inputTitle" class="control-label">Title</label>
+					<input type="text" class="form-control" id="inputTitle" placeholder="Title" value="{{workitem.title}}" />
+					<label for="inputSLA" class="control-label">SLA</label>
+					<input type="text" class="form-control" id="inputSLA" placeholder="SLA" value="{{workitem.SLA}}" />
+					<label for="inputAssignee" class="control-label">Assignee</label>
+					<input type="text" class="form-control" id="inputAssignee" placeholder="Assignee" value="{{workitem.assignee}}" />
+					<label for="inputId" class="control-label">ID</label>
+					<input type="text" class="form-control" id="inputId" placeholder="Id" disabled value="{{workitem.id}}" />
+				</fieldset>
+			</form>
+		</div>
+	</div>
+	<div class="col-md-4">
+
+	</div>
+	<div class="col-md-4">
+
+	</div>
+</div>
+
